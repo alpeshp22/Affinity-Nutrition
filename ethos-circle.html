@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Affinity Nutrition</title>
+    <link rel="icon" href="images/site-id-logo.png">
+    
+    <!--css-->
+    <link rel="stylesheet"  href="css/ethos-circle.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    
+    <!--Owl Carousel Css-->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!--Font-Awesome css-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body data-spy="scroll">
+    
+
+<div id="ethos" class="py-5">
+   <h3 class="text-center py-lg-5 pt-md-0 pb-md-3">ethos</h3>
+   <div class="container">
+    <div class="row ethos-circle-row">
+     <div class="col-md-12 text-center">
+      <div class="main-round">
+        <img src="images/main-round.png" class="main-round-img" alt="">
+        <div class="ethos-title">
+         <div class="natural-e"><h5>Natural<br>Ethos</h5></div>
+         <div class="active-e"><h5>Active<br>Ethos</h5></div>     
+        </div>
+        <div class="performance">
+          <div class="rounded-square">
+            <img src="images/small-white.png" class="small-white">
+            <img src="images/small-green.png" class="small-green">
+            <div class="rounded-square-title"><h6>performance</h6></div>
+           <div class="big-green-round">
+             <img src="images/big-green.png" class="big-green" alt="">
+             <div class="rounded-square-title"><h5 class="text-white">performance</h5></div>     
+           </div>     
+         </div><!--performance-->
+        </div><!--performance-->
+        <div class="clean-ingrediants">
+         <div class="rounded-square">
+          <img src="images/small-white.png" class="small-white">
+          <img src="images/small-green.png" class="small-green">
+          <div class="rounded-square-title"><h6>Clean Ingrediants</h6></div>
+          <div class="big-green-round">
+             <img src="images/big-green.png" class="big-green" alt="">
+             <div class="rounded-square-title"><h5 class="text-white">Clean Ingrediants</h5></div>     
+          </div>     
+         </div>
+       </div><!--clean-ingrediants-->
+        <div class="innovation">
+         <div class="rounded-square">
+          <img src="images/small-white.png" class="small-white">
+          <img src="images/small-green.png" class="small-green">
+          <div class="rounded-square-title"><h6>innovation</h6></div>
+          <div class="big-green-round">
+             <img src="images/big-green.png" class="big-green" alt="">
+             <div class="rounded-square-title"><h5 class="text-white">innovation</h5></div>     
+          </div>     
+         </div>
+       </div><!--innovation-->
+        <div class="community">
+          <div class="rounded-square a-ethos">
+            <img src="images/small-white.png" class="small-white">
+            <img src="images/small-light-green.png" class="small-green">
+            <div class="rounded-square-title"><h6>community</h6></div>
+           <div class="big-green-round">
+             <img src="images/big-light-green.png" class="big-green" alt="">
+             <div class="rounded-square-title"><h5 class="text-white">community</h5></div>     
+           </div>     
+         </div>
+        </div><!--community-->
+        <div class="competition">
+          <div class="rounded-square a-ethos">
+            <img src="images/small-white.png" class="small-white">
+            <img src="images/small-light-green.png" class="small-green">
+            <div class="rounded-square-title"><h6>competition</h6></div>
+           <div class="big-green-round">
+             <img src="images/big-light-green.png" class="big-green" alt="">
+             <div class="rounded-square-title"><h5 class="text-white">competition</h5></div>     
+           </div>     
+         </div>
+        </div><!--competition-->
+        <div class="team">
+          <div class="rounded-square a-ethos">
+            <img src="images/small-white.png" class="small-white">
+            <img src="images/small-light-green.png" class="small-green">
+            <div class="rounded-square-title"><h6>team</h6></div>
+           <div class="big-green-round">
+             <img src="images/big-light-green.png" class="big-green" alt="">
+             <div class="rounded-square-title"><h5 class="text-white">team</h5></div>     
+           </div>     
+         </div>
+        </div><!--team-->    
+      </div>     
+     </div>    
+    </div>   
+   </div>
+</div>
+
+    <!--jquery-->
+    <script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script>
+    <!--Owl Carousel Slider js-->
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <!--bootstrap js-->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+
+ <script>
+     $('.CommunitySlider').owlCarousel({
+    loop:true, 
+    margin: 0,
+    autoplay:true,
+    autoplayTimeout: 5000,     
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:1,
+            nav:true
+        },
+        1000:{
+            items:1,
+            nav:true,
+            loop:true
+        }
+    }
+});
+     $(document).ready(function(){
+         $('.fa-bars').click(function(){
+            $(this).hide();
+            $('.fa-times').show(); 
+         });
+         $('.fa-times').click(function(){
+            $(this).hide();
+            $('.fa-bars').show(); 
+         });
+     });
+</script>       
+<script>
+    $(function(){
+        $(document).scroll(function () {
+          var $nav = $("#main-navbar");
+          $nav.toggleClass('changeNavbar', $(this).scrollTop() > $nav.height());
+        });  
+    });
+</script> 
+ 
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Affinity Nutrition</title>
+    <link rel="icon" href="images/site-id-logo.png">
+    
+    <!--css-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet"  href="css/user-profile.css">
+    
+    <!--Owl Carousel Css-->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!--Font-Awesome css-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body data-spy="scroll">
+    
+<div class="container">
+ <div class="row" id="all-products">
+  <div class="col-md-6 product_images">
+  <div class="cart-product penuts" data-original_source="penuts">  
+  </div>
+  <div class="row justify-content-center mt-3">
+   <div class="col-2 px-1 py-1 mx-1 border">
+      <img src="images/mint.png" class="img-fluid mint-sm" id="mint-sm" alt="mint">
+   </div>
+   <div class="col-2 px-1 py-1 mx-1 border">
+    <img src="images/coockie.png" class="img-fluid mint-sm" id="coockie-sm" alt="coockie">
+   </div>      
+  </div>
+  </div>     
+ </div>    
+</div>
+        
+    <!--jquery-->
+<!--    <script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script>-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--Owl Carousel Slider js-->
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <!--bootstrap js-->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+<!--    <script type="text/javascript" src="js/bootstrap-hover-tabs.js"></script>-->
+    
+
+<script>
+
+    $("#mint-sm").mouseenter(function() {
+          $(".cart-product").addClass('mint');
+    }).mouseleave(function() {
+        $(".cart-product").removeClass('mint');
+    });
+
+    $("#coockie-sm").mouseenter(function() {
+          $(".cart-product").addClass('coockie');
+    }).mouseleave(function() {
+        $(".cart-product").removeClass('coockie');
+    });
+    
+    /*$("#coockie-sm").mouseenter(function() {
+          $(".penuts-lg").hide();
+          $(".coockie-lg").show();
+    }).mouseleave(function() {
+          $(".penuts-lg").show();
+          $(".coockie-lg").hide();
+    });*/
+</script>
+<!-- <script>     
+     $(document).ready(function(){
+        $('.mint-sm').hover(function(){
+               var self = $(this);
+               self.parents('.product_images').find(".cart-product").addClass('mint');
+           },
+           function () {
+               var self = $(this);
+               var main_image = self.parents('.product_images').find(".cart-product");
+               var original_class = main_image.data("original_source");
+               main_image.removeClass('mint').addClass(original_class);
+           }
+        );
+         
+        $('.coockie-sm').hover(function(){
+               var self = $(this);
+               self.parents('.product_images').find(".cart-product").addClass('coockie');
+           },
+           function () {
+               var self = $(this);
+               var main_image = self.parents('.product_images').find(".cart-product");
+               var original_class = main_image.data("original_source");
+               main_image.removeClass('coockie').addClass(original_class);
+           }
+        ); 
+     });
+</script>-->
+
+</body>
+</html>

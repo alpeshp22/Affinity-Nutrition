@@ -1,0 +1,704 @@
+*{
+    scroll-behavior: smooth;
+    -webkit-scroll-behavior: smooth;
+    -moz-scroll-behavior: smooth;
+    -ms-scroll-behavior: smooth;
+    -o-scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: relative;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: CasanovaScotia, sans-serif;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*=========================
+     MAIN NAVIGATION
+===========================*/
+#main-navbar .navbar-brand img{
+    height: 45px;
+}
+#main-navbar ul li a{
+    font-size: 16px;
+    font-family: CasanovaScotia, sans-serif;
+    color: #fff;
+    transition: .3s ease-in-out;
+    margin-left: 0.60rem;
+}
+#main-navbar ul li a:hover{
+    color: #54C84D!important;
+}
+#main-navbar ul li a.active{
+    color: #54C84D!important;
+}
+.changeNavbar{
+    /*background-color: rgba(0,0,0,0.5);*/
+    /*box-shadow: 0 5px 20px #262626;*/
+    background: linear-gradient(rgba(0,0,0,0.8) 88%,rgba(0,0,0,0));    
+}
+
+
+/*===================================
+     BANNER ALL INNERS PAGES
+=====================================*/
+#banner-inners {
+   position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.banner-inners-box .banner-inners-caption{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 45%;
+    text-align: center;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clear: both;
+    border-top: 3px solid #54C84D;
+    background-color: rgba(0,0,0,0.6);
+    overflow: hidden;
+/*    padding-right: 220px;*/
+}
+.banner-inners-caption h1{
+    font-family: CasanovaScotia, sans-serif;
+    font-size: 2.5vw;
+    color: transparent;
+    text-transform: uppercase;
+    background: url(../images/text-bg.jpg);
+    background-size: cover;
+    background-position: top;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -ms-background-clip: text;
+    -o-background-clip: text;
+    padding-top: 10px;
+    text-align: center;
+}
+
+/*=========================
+   HOME BANNER SECTION
+===========================*/
+#banner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+#banner .carousel-item{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/banner1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#bannerSlider img{
+    width: 100%!important;
+    height: 100%!important;
+}
+#banner .banner-content{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    height: 89%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clear: both;
+    border-top: 3px solid #54C84D;
+    background-color: rgba(0,0,0,0.6);
+    overflow: hidden;
+    padding-right: 200px;
+}
+.inner-content h1{
+    font-family: CasanovaScotia, sans-serif;
+    font-size: 4.3vw;
+    color: transparent;
+    text-align: right;
+    line-height: 4.6rem;
+    text-transform: uppercase;
+    background: url(../images/text-bg.jpg);
+    background-size: cover;
+    background-position: top;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -ms-background-clip: text;
+    -o-background-clip: text;
+    padding-top: 50px;        
+}
+.banner-btns{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+
+/*=========================
+     SHOP SECTION
+===========================*/
+#shop{
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    clear: both;
+    content: '';
+    box-sizing: border-box;
+    background-color: #fff;
+}
+#shop .shop-heading{
+    font-family: CasanovaScotia, sans-serif;
+    padding-bottom: 80px;
+}
+#shop .product-price{
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+#shop .product-detials{
+    background-color: #F2F9F1;
+    border-right: 4px solid #229713;
+    padding: 20px;
+}
+#shop .product-detials h6{
+    text-align: center;
+    font-family: CasanovaScotia, sans-serif;
+}
+#shop .product-detials p{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+/*=========================
+    VARIETY BOX SECTION
+===========================*/
+#variety-box h1{
+    font-family: 'Montserrat', sans-serif;
+}
+#variety-box .btn-outline-white{
+    font-size: 18px;
+    padding-left: 40px;
+    padding-right: 40px; 
+}
+
+
+/*=================================
+    COMMUNITY SLIDER SECTION
+===================================*/
+#community{
+    
+}
+.community-heading h3{
+    font-family: 'Montserrat', sans-serif;
+}
+.community-socials{
+    position: relative;
+}
+.community-socials:before{
+    content: '';
+    width: 1px;
+    height: 120px;
+    background: #fff;
+    display: block;
+    margin: auto;
+   margin-bottom: 15px;
+}
+.community-socials:after{
+    content: '';
+    width: 1px;
+    height: 120px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+}
+.community-socials a{
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-color: #fff;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    color: #249716;
+    margin-bottom: 15px;
+    position: relative;
+}
+.community-socials a:hover{
+    color: #249716;
+}
+.community-socials a:last-child{
+    margin-bottom: 0;
+}
+.community-img-container{
+     position: relative;
+}
+
+.CommunitySlider .community-slider-title{
+    position: absolute;
+    bottom: 0px;
+    background: rgba(0,0,0,0.3);
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+    left: 5%;
+}
+.CommunitySlider .community-slider-contet{
+    padding: 48px 0;
+    font-size: 18px;
+}
+
+/*customize slide*/
+.CommunitySlider .owl-nav{
+    position: absolute;
+    right: 7%;
+    bottom: 70px; 
+}
+.CommunitySlider .owl-nav button.owl-next span,
+.CommunitySlider .owl-nav button.owl-prev span{
+    display: none;
+}
+.CommunitySlider .owl-nav button.owl-prev:before{
+    content: "\f30a";
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 600; 
+    font-size: 20px;
+    margin-right: 95px;
+}
+.CommunitySlider .owl-nav button.owl-next:before{
+    content: "\f30b";
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 600; 
+    font-size: 20px;
+    
+}
+.CommunitySlider .owl-nav button.owl-prev:hover:before,
+.CommunitySlider .owl-nav button.owl-next:hover:before{
+    color: #249716;
+}
+.CommunitySlider .owl-dots{
+    position: absolute;
+    right: 10%;
+    bottom: 74px; 
+}
+.CommunitySlider .owl-dots .owl-dot{
+    position: relative;
+    margin: 0 3px;
+}
+.CommunitySlider .owl-dots .owl-dot.active{
+    color: #249716;
+}
+.CommunitySlider .owl-dots .owl-dot:nth-child(1):before{
+    content: '1';
+    font-weight: bold;
+}
+.CommunitySlider .owl-dots .owl-dot:nth-child(2):before{
+    content: '2';
+    font-weight: bold;
+}
+.CommunitySlider .owl-dots .owl-dot:nth-child(3):before{
+    content: '3';
+    font-weight: bold;
+}
+.CommunitySlider .owl-dots .owl-dot:nth-child(4):before{
+    content: '4';
+    font-weight: bold;
+}
+.CommunitySlider .owl-nav button:hover,
+.CommunitySlider .owl-nav button:focus,
+.CommunitySlider .owl-dots button:hover,
+.CommunitySlider .owl-dots button:focus
+{
+    outline: none!important;
+    -webkit-outline: none!important;
+    -moz-outline: none!important;
+    -ms-outline: none!important;
+    -o-outline: none!important;
+    
+    box-shadow: none!important;
+    -webkit-box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    -ms-box-shadow: none!important;
+    -o-box-shadow: none!important;
+    
+    text-decoration: none!important;
+    -webkit-text-decoration: none!important;
+    -moz-text-decoration: none!important;
+    -ms-text-decoration: none!important;
+    -o-text-decoration: none!important;
+}
+
+
+/*======================
+    ETHOS SECTION
+========================*/
+#ethos{
+    background: url(../images/Ethos-BG.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#ethos .col-md-6{
+    overflow: hidden;
+    /*padding-top: 100px;
+    padding-bottom: 100px;*/
+    padding: 100px 0;
+    position: relative;
+}
+#ethos .col-md-6 .white-space{
+    width: 25px;
+    height: 600px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #fff;
+    position: absolute;
+    z-index: 1;
+}
+#ethos .col-md-6 .white-space.right{
+    right:  0;
+}
+#ethos .col-md-6 .white-space.left{
+    : 0;
+}
+.circle:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 40px solid #5B5B5B;
+    display: block;
+    border-radius: 50%;
+}
+.nutrition-ethos .circle{
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background: #fff;
+    border: 30px solid #777777;
+    border-radius: 50%;
+    margin-left: 50%;
+}
+.nutrition-ethos .circle .main-title{
+    text-align: left;
+    line-height: 550px;
+    width: 100%;
+    color: #66B55A;
+    margin-bottom: 0;
+    margin-left: 46px;
+}
+
+.active-ethos .circle{
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background: #fff;
+    border: 30px solid #777777;
+    border-radius: 50%;
+    right: 55%;
+}
+.active-ethos .circle .main-title{
+    text-align: right;
+    line-height: 550px;
+    color: #A1BD44;
+    margin-bottom: 0;
+    margin-right: 50px;
+}
+/*for small*/
+.rounded-square{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+.rounded-square .title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(-45deg);
+    color: green;
+    font-family: CasanovaScotia, sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.rounded-square-inner{
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    border-radius: 50%;
+    border: 4px solid green;
+    transition: .3s;
+}
+.rounded-square:hover .rounded-square-inner{
+    background: green;
+}
+.rounded-square:hover .title{
+    color: #fff;
+}
+/*for big*/
+.rounded-square.big{
+    width: 280px;
+    height: 280px;
+    overflow: hidden;
+    position: relative;
+}
+.rounded-square.big:after{
+    content: '';
+    position: absolute;
+    right: -33px;
+    bottom: -74px;
+    width: 75px;
+    height: 150px;
+    background: #5b5b5b;
+    border-radius: 50%;
+    transition: .3s;
+    transform: rotate(45deg);
+}
+.rounded-square.big .title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(-45deg);
+    color: #fff;
+    font-family: CasanovaScotia, sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: uppercase;
+    transition: .3s;
+    width: 100%;
+    text-align: center;
+}
+
+
+/*NUTRITION ETHOS*/
+.nutrition-ethos .rounded-square.big .rounded-square-inner{
+    width: 560px;
+    height: 560px;
+    background: rgba(83,170,73,.8)/*#53AA49*/;
+    border-radius: 50%;
+    border: 4px solid transparent;
+    transition: .3s;
+}
+.nutrition-ethos .rounded-square.big:hover .rounded-square-inner{
+    background: #fff;
+    border: 4px solid #53AA49;
+}
+.nutrition-ethos .rounded-square.big:hover .title{
+    color: #53AA49;
+}
+.performance{    
+	position: absolute;
+    top: 0;
+    right: 107px;
+    transform: rotate(0deg);
+}
+.performance .rounded-square:after{
+    content: '';
+    position: absolute;
+    right: -36px;
+    bottom: -75px;
+    width: 75px;
+    height: 150px;
+    background: #5b5b5b;
+    border-radius: 50%;
+    transition: .3s;
+    transform: rotate(62deg);
+}
+.clear-ingrediants{    
+    position: absolute;
+    top: 50%;
+    right: 273px;
+    transform: translateY(-50%) rotate(-46deg);
+}
+.innovation{    
+	position: absolute;
+    bottom: 0;
+    right: 107px;
+    transform: rotate(-90deg);
+}
+.innovation .rounded-square:after{
+    content: '';
+    position: absolute;
+    right: -38px;
+    bottom: -76px;
+    width: 75px;
+    height: 150px;
+    background: #5b5b5b;
+    border-radius: 50%;
+    transition: .3s;
+    transform: rotate(25deg);
+}
+
+/*ACTIVE ETHOS*/
+.active-ethos .rounded-square.big .rounded-square-inner{
+    width: 560px;
+    height: 560px;
+    background: rgba(159,187,66,0.8) /*#A1BD44*/;
+    border-radius: 50%;
+    border: 4px solid transparent;
+    transition: .3s;
+}
+.active-ethos .rounded-square.big:hover .rounded-square-inner{
+    background: #fff;
+    border: 4px solid #A1BD44;
+}
+.active-ethos .rounded-square.big .title{
+    color: #fff;
+}
+.active-ethos .rounded-square.big:hover .title{
+    color: #A1BD44;
+}
+.active-ethos .rounded-square-inner{
+    border: 4px solid #A1BD44;
+}
+.active-ethos .rounded-square:hover .rounded-square-inner{
+    background: #A1BD44;
+}
+.active-ethos .rounded-square .title{
+    color: #A1BD44;
+}
+.active-ethos .rounded-square:hover .title{
+    color: #fff;
+}
+.community{
+    position: absolute;
+    top: 0;
+    left: 102px;
+    transform: rotate(90deg);
+}
+.community .rounded-square:after{
+    content: '';
+    position: absolute;
+    right: -38px;
+    bottom: -68px;
+    width: 75px;
+    height: 150px;
+    background: #5b5b5b;
+    border-radius: 50%;
+    transition: .3s;
+    transform: rotate(32deg);
+}
+.competition{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(135deg);
+    left: 274px;
+}
+.team{
+    position: absolute;
+    bottom: 0; 
+    left: 107px;
+    transform: rotate(180deg);
+}
+.team .rounded-square:after{
+    content: '';
+    position: absolute;
+    right: -38px;
+    bottom: -76px;
+    width: 75px;
+    height: 150px;
+    background: #5b5b5b;
+    border-radius: 50%;
+    transition: .3s;
+    transform: rotate(64deg);
+}
+
+
+
+/*===============================
+    SUBSCRIBE NOW SECTION
+=================================*/
+#subscribe-sec h3{
+    font-weight: 600;
+    margin-bottom: 20px
+}
+#subscribe-sec p{
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+.subscribe-form .form-control{
+    position: relative;
+    padding: 30px 200px 30px 25px;
+    border-radius: 30px;
+    border-color: gray;
+    font-weight: 500;
+    font-family: 'Font Awesome 5 Free', 'Montserrat', sans-serif;
+    
+}
+.subscribe-form .form-control::placeholder{
+    color: green;
+    font-size: 20px;
+}
+.subscribe-form .btn-subscribe{
+    padding: 19px 30px;
+    border: 0;
+    border-radius: 30px;
+    margin-left: -70px;
+    z-index: 1;
+    background: linear-gradient(#20EA3E, #249D1A);
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    outline: none!important;
+    box-shadow: none!important;
+}
+
+/*=========================
+    FOOTER SECTION
+===========================*/
+.footer{
+    background: linear-gradient(45deg, #1F8230, #1FD83D);
+    padding: 80px 0 40px;
+    text-align: center;
+}
+.footer a,
+.footer a:hover{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+}
+.footer .footer-ethos{
+    padding: 40px 0 70px;
+}
+.footer .footer-ethos a{
+    margin: 0 10px;
+    font-size: 17px;
+    position: relative;
+}
+.footer .footer-ethos a:after{
+    content: '.';
+    position: absolute;
+    right: -15px;
+    top: -22px;
+    display: block;
+    font-size: 33px;
+}
+.footer .footer-ethos a:nth-child(3):after,
+.footer .footer-ethos a:last-child:after{
+    display: none;
+}
+.footer .footer-aims a{
+    margin: 10px;
+    font-size: 20px;
+}
+
+

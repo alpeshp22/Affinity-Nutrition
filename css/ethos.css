@@ -1,0 +1,86 @@
+/*================
+    IMG OVERLAY
+==================*/
+.ethos-overlay{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat!important;
+/*    background-size: cover!important;*/
+    background-position: top!important;
+}
+.overlay-green{
+    background: url(../images/ethos-identify-green-img.png);
+}
+.overlay-white{
+    background: url(../images/ethos-identify-white-img.png);
+}
+.overlay-red{
+    background: url(../images/ethos-identify-red-img.png);
+}
+.overlay-purple{
+    background: url(../images/ethos-identify-purple-img.png);
+}
+
+
+.ethos-title p{
+    font-weight: 600;
+    font-size: 18px;
+}
+.ethos-img-container{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+.ethos-img-container .ethos-identify-img{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40%;
+}
+.ethos-content h4{
+    margin-bottom: 15px!important;
+}
+.ethos-content p{
+    font-weight: 500;
+}
+
+
+@media (max-width: 991px){
+    .ethos .container{
+        max-width: 95%;
+    }
+    .ethos-content h4{
+        font-size: 20px;
+    }
+    .ethos-content p{
+        font-size: 13px;    
+    }
+}
+@media (max-width: 767px){
+    .ethos-content{
+        padding: 20px;
+    }
+}
+@media (max-width: 480px){
+    .ethos-title h3 {
+        font-size: 22px;
+    }
+    .ethos-title p {
+        font-size: 15px;
+    }
+    .ethos .container{
+        max-width: 100%;
+    }
+    .ethos-content{
+        padding: 20px 0;
+    }
+    
+}
+
+
+
+
+
+
+

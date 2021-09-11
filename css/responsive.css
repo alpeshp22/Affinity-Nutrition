@@ -1,0 +1,440 @@
+/*=====================
+        992px
+=======================*/
+@media screen and (max-width: 992px){
+    
+  /*====== HOME PAGE======*/
+    #main-navbar .navbar-brand img {
+        height: auto;
+    }
+    #main-navbar ul li a{
+        font-size: 12px;    
+    }
+    #main-navbar .nav-item.ml-md-4{
+        margin-left: 0!important;
+    }
+    #main-navbar .nav-item.ml-md-4 a{
+        margin-left: 0;
+    }
+    #main-navbar .navbar-brand{
+        width: 25%;
+    }
+    #main-navbar .container{
+        max-width: 100%;
+    }
+    #banner{
+        height: auto;
+    }
+    #banner .carousel-item{
+        height: auto;
+    }
+    #banner .banner-content{
+        width: 50%;
+        padding-right: 0;
+    }
+    .inner-content h1{
+        line-height: 2.8rem;
+    }
+    
+    #shop .shop-heading {
+        padding-bottom: 40px;
+    }
+    #shop .shop-heading h3{
+       font-size: 1.25rem;
+    }
+    #shop .shop-heading h2{
+       font-size: 1.45rem;
+    }
+    
+    #variety-box h1 {
+        font-size: 2rem;
+    }
+    
+    .community-heading h3 {
+        font-size: 1.50rem;
+    }
+    .community-heading h2 {
+        font-size: 1.50rem;
+    }
+    .CommunitySlider .owl-nav {
+        right: 4%;
+        bottom: 90px;
+    }
+    .CommunitySlider .owl-dots {
+        right: 9%;
+        bottom: 93px;
+    }
+    .CommunitySlider .owl-nav button.owl-prev:before{
+        margin-right: 100px;
+    }
+    .CommunitySlider .community-slider-contet {
+        font-size: 15px;
+    }
+    
+    #ethos .container{
+        max-width: 95%;
+    }
+    .nutrition-ethos .circle{
+        margin-left: 0%;
+        left: 38%
+    }
+    .active-ethos .circle{
+        right: 66%;
+    }
+    .rounded-square {
+        width: 170px;
+        height: 170px;
+    }
+    .rounded-square.big{
+        width: 230px;
+        height: 230px;
+    }
+    .rounded-square.big:after{
+        width: 66px;
+    }
+    .performance {
+        top: 42px;
+        right: 125px;
+    }
+    .performance .rounded-square:after{
+        transform: rotate(55deg);
+    }
+    .innovation {
+        bottom: 50px;
+        right: 136px;
+        transform: rotate(-84deg);
+    }
+    .community {
+        top: 24px;
+        left: 108px;
+    }
+    .community .rounded-square:after{
+        transform: rotate(30deg);
+        width: 70px;
+    }
+    .competition{
+        left: 277px;
+    }
+    .team {
+        bottom: 26px;
+        left: 107px;
+        transform: rotate(180deg);
+    }
+    .team .rounded-square:after{
+        transform: rotate(61deg);
+        right: -30px;
+        bottom: -77px;
+        width: 72px;
+    }
+
+    #subscribe-sec .container{
+        max-width: 95%;
+    }
+    .subscribe-form .form-control{
+        width: 78%;
+        padding: 30px 80px 30px 25px;
+    }
+    #subscribe-sec p{
+        font-size: 16px;
+    }
+    #subscribe-sec h3 {
+      margin-bottom: 15px;
+      font-size: 1.50rem;    
+    }
+  /*====== END HOME ======*/
+    
+  /*====== ALL PRODUCTS PAGE======*/    
+    .banner-inners-box .banner-inners-caption{
+        padding-right: 15px;
+        padding-left: 15px;
+        width: auto;
+    }
+    .banner-inners-box .caption-text{
+        width: 100%;
+    }
+    
+  /*======= CONTACT =========*/
+    .contact {
+        padding: 20px 0!important;
+    }    
+}
+
+
+
+/*=====================
+        767px
+=======================*/
+@media screen and (max-width: 767px){
+    #main-navbar .navbar-toggler,#main-navbar .navbar-toggler:hover,#main-navbar .navbar-toggler:focus
+    {
+        padding: 0;
+        outline: none;
+        -webkit-outline: none;
+        -moz-outline: none;
+        -ms-outline: none;
+        -o-outline: none;
+        
+        border: none;
+        -webkit-border: none;
+        -moz-border: none;
+        -ms-border: none;
+        -o-border: none;
+        
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        -ms-box-shadow: none;
+        -o-box-shadow: none;
+    }
+    #main-navbar .navbar-toggler .fa-bars{
+        color: #54C84D;
+    }
+    #main-navbar .navbar-toggler .fa-times{
+        color: firebrick;
+        display: none;
+    }
+    #main-navbar .navbar-brand{
+        width: 60%;
+    }
+    #main-navbar .navbar-brand img{
+        height: auto;
+    }
+    #navigation{
+        background: rgba(0,0,0,0.9);
+        padding: 20px;
+        border: 3px solid #54c84d;
+        box-shadow: 0 0 20px rgba(0,0,0,0.8);
+    }
+    
+    .community-socials:before {
+        width: 100px!important;
+        height: 1px!important;
+        display: inherit;
+        margin-bottom: 15px;
+    }
+    .community-socials:after {
+        width: 100px!important;
+        height: 1px!important;
+        display: inherit;
+        margin-top: 15px;
+    }
+    .community-socials a{
+        margin-bottom: 0;
+    }
+    .community-socials a:nth-child(2){
+        margin: 0 5px;
+    }
+    
+    
+    /*======HOME PAGE======*/
+    
+    #banner .banner-content {
+        padding-right: 0px;
+        height: 75%;
+    }
+    .inner-content h1 {
+        line-height: 1.2rem;
+        padding-top: 23px;
+    }
+    .banner-btns{
+        display: block;
+        width: 100%;
+        justify-content: inherit;
+    }
+    .banner-btns.mt-5{
+        margin-top: 0!important;
+    }
+    .banner-btns .btn-white,
+    .btn-outline-green{
+        padding: 6px 8px;
+        font-size: 8px;
+    }
+    
+    #shop .shop-heading h3 {
+        font-size: 0.8rem;
+    }
+    #shop .shop-heading h2 {
+        font-size: 1rem;
+    }
+    #shop .product-detials {
+        border-right: 0;
+        border-top: 4px solid #229713;
+        padding: 20px;
+        margin: 20px 0;
+    }
+    #variety-box{
+        padding: 50px 0;
+    }
+    #variety-box h1 {
+        font-size: 1.5rem;
+        margin-bottom: 25px;
+    }
+    #variety-box .btn-outline-white {
+        font-size: 14px;
+        padding: 9px 30px;
+    }
+    
+    .community-heading h3, 
+    .community-heading h2 {
+        font-size: 1.3rem;
+    }
+    .socials-col .d-flex{
+        display: block!important;
+    }
+    .socials-col .community-socials{
+        display: flex;
+        padding: 20px 0;
+    }
+    #community {
+        margin-bottom: 50px;
+    }
+    .CommunitySlider .community-slider-contet{
+        width: 100%!important;
+        padding: 20px;
+    }
+    .CommunitySlider .community-slider-contet p{
+        font-size: 15px!important;
+    }
+    .CommunitySlider .community-slider-title{
+        left: 0;
+    }
+    .CommunitySlider .owl-dots {
+        right: 33%;
+        transform: translateX(-50%);
+        bottom: -35px;
+    }
+    .CommunitySlider .owl-nav {
+        right: 12%;
+        transform: translateX(-50%);
+        bottom: -39px;
+    }
+    
+    #ethos {
+       display: none;
+    }
+    
+    .subscribe-form{
+        margin-top: 20px;
+    }
+    .subscribe-form .form-control {
+        width: 73%;
+        padding: 25px 80px 25px 15px;
+    }
+    .subscribe-form .btn-subscribe{
+        padding: 15px 20px;
+    }
+    .footer{
+        padding: 40px 0;
+    }
+    .footer .footer-ethos {
+        padding: 30px 0 35px;
+    }
+    .footer .footer-ethos a{
+        font-size: 14px;
+    }
+    .footer .footer-aims a {
+        margin: 3px 0;
+        font-size: 16px;
+        display: block;
+    }
+    
+  /*====== ALL PRODUCT PAGE ======*/
+    
+    .banner-inners-caption h1{
+        font-size: 5vw!important;
+    }
+    
+    #all-products {
+        padding: 30px 0 0!important;
+    }
+    #all-products .container {
+        max-width: 100%!important;
+    }
+    #all-products .row {
+        padding-bottom: 30px!important;
+    }
+    .ingredients .col{
+        padding: 0!important;
+    }
+    .products-btns {
+        display: block!important;
+        padding-bottom: 20px;
+    }
+    .products-btns .btn-green{
+        padding: 8px 18px;
+        font-size: 12px;
+    }
+    .products-info span {
+        font-size: 16px!important;
+        margin-right: 25px!important;
+    }
+    .ingredients p {
+        font-size: 9px!important;
+    }
+    
+ /*======= CONTACT =========*/
+    .contact {
+        padding: 0!important;
+    }
+
+}
+
+
+
+/*=====================
+        480px
+=======================*/
+@media screen and (max-width: 480px){
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

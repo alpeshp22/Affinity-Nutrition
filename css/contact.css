@@ -1,0 +1,155 @@
+.contact{
+    padding: 100px 0;
+    background-color: #ffffff;
+}    
+.contact strong{
+    font-size: 1.17rem;
+}
+.contact p{
+    font-weight: 500;
+}
+
+/*    background-color: #249716;
+    background-color:  #51D84D;*/
+
+.social-links ul li a{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: #249716;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    transition: .5s;
+    display: block;
+}
+.social-links ul li a:hover{
+    background-color:  #51D84D;
+}
+/*.social-links ul li a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color:  #51D84D;
+    display: block;
+    transition: .5s;
+    
+}
+.social-links ul li:hover:after{
+    top: -5px;
+}*/
+
+.contact p a{
+    font-weight: 500;
+    color: #000;
+    font-size: 20px;
+}
+.contact p a .fas{
+    padding-right: 10px;
+    font-size: 22px;
+    color: #4FCB47;
+}
+.contact-form{
+    margin-top: 10px;
+}
+.contact-form .form-control{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    -webkit-padding-top: 26px;
+    -moz-padding-top: 26px;
+    -ms-padding-top: 26px;
+    -o-padding-top: 26px;
+    padding-top: 26px;
+    
+    -webkit-padding-bottom: 26px;
+    -moz-padding-bottom: 26px;
+    -ms-padding-bottom: 26px;
+    -o-padding-bottom: 26px;
+    padding-bottom: 26px;
+    
+    -webkit-padding-left: 20px;
+    -moz-padding-left: 20px;
+    -ms-padding-left: 20px;
+    -o-padding-left: 20px;
+    padding-left: 20px;
+    
+    -webkit-background-color: #F7F7F7;
+    -moz-background-color: #F7F7F7;
+    -ms-background-color: #F7F7F7;
+    -o-background-color: #F7F7F7;
+    background-color: #F7F7F7;
+}
+.contact-form .form-control:hover,
+.contact-form .form-control:focus{
+    border-color: #4FCB47;
+    -webkit-border-color: #4FCB47;
+    -moz-border-color: #4FCB47;
+    -ms-border-color: #4FCB47;
+    -o-border-color: #4FCB47;
+}
+.contact-form .form-control::placeholder{
+    color: #4FCB47;
+    font-weight: 500;
+}
+.contact-form #submit-btn{
+    background-color: #249716;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px 40px;
+    border: 0;
+    border-radius: 5px;
+    outline: none!important;
+    box-shadow: none!important;
+    transition: all .4s ease-in-out;
+}
+.contact-form #submit-btn:hover,
+.contact-form #submit-btn:focus{
+    background-color: #51D84D;
+    -webkit-background-color: #51D84D;
+    -moz-background-color: #51D84D;
+    -ms-background-color: #51D84D;
+    -o-background-color: #51D84D;
+    
+    outline: none!important;
+    -webkit-outline: none!important;
+    -moz-outline: none!important;
+    -ms-outline: none!important;
+    -o-outline: none!important;
+    
+    box-shadow: none!important;
+    -webkit-box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    -ms-box-shadow: none!important;
+    -o-box-shadow: none!important;
+}
+
+/*========================
+     LOGIN PAGE CSS
+==========================*/
+.login-container {
+    box-shadow: 0 0 20px rgba(0,0,0,.2);
+    border-radius: 5px;
+    width: 100%;
+}
+.quick-link {
+    color: #4c534b;
+    font-weight: 500;
+    transition: all .3s;
+}
+.quick-link:hover {
+    color: #4FCB47;
+}
+
+
+
+
+
+

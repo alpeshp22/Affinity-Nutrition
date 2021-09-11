@@ -1,0 +1,111 @@
+.blog-navigation-bg{
+    background: linear-gradient(rgba(0,0,0,0.8) 88%,rgba(0,0,0,0));
+}
+#blog{
+    padding: 120px 0 50px;
+    background-color: #fff;
+}
+.blog-post{
+    position: relative;
+    box-sizing: border-box;
+}
+.blog-post .blog-caption{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    padding: 20px 30px;
+    background: rgba(0,0,0,.3);
+}
+#blog .community-socials:before,
+#blog .community-socials:after{
+    height: 60px;
+}
+
+.blog-content p{
+    font-weight: 500;
+}
+.blog-content .para-border{
+    border-left: 8px solid #249716;
+    padding-left: 20px;
+    margin: 25px 0!important;
+}
+.admin-container{
+    margin: 30px 0;
+}
+.admin-container .date{
+    font-weight: 500;
+    margin-right: 50px;
+}
+.admin-container .commt{
+    font-family: CasanovaScotia, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.admin-container .commt .far{
+    padding-left: 10px;
+    color: #249716;
+    transform: rotateY(180deg);
+    font-size: 20px;
+}
+.admin-container .admin-tag{
+    text-align: right;
+}
+.blog-socials .col-md-1 a,
+.blog-socials .col-md-1 a:hover,
+.blog-socials .col-md-1 a.active{
+    color: #57BB49;
+    font-size: 18px;
+}
+.blog-socials .col-md-1{
+    position: relative;
+    border-top: 1px solid #CECECE;
+    border-bottom: 1px solid #CECECE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.blog-socials .col-md-1:after{
+     content: '|';
+    position: absolute;
+    right: 0;
+    color: #CECECE;
+}
+.blog-socials .col-md-1:last-child:after{
+    display: none;
+}
+
+@media (max-width: 767px){
+    .blog-post .blog-caption{
+        padding: 8px 20px;
+    }
+    .blog-post .blog-caption h3{
+        font-size: 1.2rem;
+    }
+    .admin-container .admin-tag{
+        text-align: left;
+    }
+    .blog-socials .col-md-1:nth-child(4):after{
+        display: none;
+    }
+    .blog-socials .col-md-1:nth-last-child(1),
+    .blog-socials .col-md-1:nth-last-child(2),
+    .blog-socials .col-md-1:nth-last-child(3),
+    .blog-socials .col-md-1:nth-last-child(4){
+        border-top: none;
+    }
+}
+
+
+@media screen and (max-width: 321px){
+    .community-socials:before{
+        margin-right: 6px;
+    }
+    .community-socials:after{
+        margin-left: 6px;
+    }
+    .admin-container .date {
+        margin-right: 0;
+        display: block;
+        margin-bottom: 10px;
+    }
+}

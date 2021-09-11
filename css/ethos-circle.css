@@ -1,0 +1,215 @@
+*{
+    scroll-behavior: smooth;
+    -webkit-scroll-behavior: smooth;
+    -moz-scroll-behavior: smooth;
+    -ms-scroll-behavior: smooth;
+    -o-scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: relative;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: CasanovaScotia, sans-serif;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*======================
+    ETHOS SECTION
+========================*/
+#ethos{
+    background: url(../images/Ethos-BG.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#ethos .ethos-circle-row{
+    margin: 100px 0;
+}
+.main-round{
+    position: relative;
+    width: 549px;
+    height: 520px;
+    margin: auto;
+}
+.main-round:before{
+    content: '';
+    width: 100px;
+    height: 520px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    z-index: 1;
+}
+.main-round .ethos-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    width: 100%;
+}
+.main-round .ethos-title .natural-e{
+    float: left;
+    margin-left: 100px;
+    color: #55B247;
+}
+.main-round .ethos-title .active-e{
+    float: right;
+    margin-right: 110px;
+    color: #A1BD44;
+}
+
+.rounded-square{
+    transition: .3s;
+}
+.rounded-square .small-white{
+    position: relative;
+    transition: .3s;
+    opacity: 1;
+    visibility: visible;
+}
+.rounded-square .small-green {
+    position: absolute;
+    top: -30px;
+    left: -13px;
+    z-index: -1;
+    transform: rotate(68deg);
+    transition: .3s;
+    opacity: 1;
+    visibility: visible;
+}
+.rounded-square .rounded-square-title,
+.rounded-square .big-green-round .rounded-square-title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(30deg);
+    width: 100%;
+    text-align: center;
+    color: #56AD4A;
+    z-index: 2;
+    transition: .3s;
+}
+.rounded-square .big-green-round .rounded-square-title{
+    left: 56%;
+}
+.rounded-square .big-green-round{
+    position: absolute;
+    top: -125px;
+    left: -9px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+.rounded-square .big-green-round img{
+    transform: rotate(123deg);
+}
+.rounded-square:hover .small-white,
+.rounded-square:hover .small-green,
+.rounded-square.a-ethos:hover .small-green,
+.rounded-square.a-ethos:hover .small-green{
+    opacity: 0;
+    visibility: hidden;
+    z-index: 0;
+}
+.rounded-square:hover .big-green-round {
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
+
+/*performance*/
+.performance{
+    position: absolute;
+    top: -77px;
+    left: -66px;
+    z-index: 0;
+    transform: rotate(-76deg);
+}
+.clean-ingrediants{
+    position: absolute;
+    top: 157px;
+    left: -174px;
+    z-index: 0;
+    transform: rotate(-126deg);
+}
+.innovation{
+    position: absolute;
+    bottom: -75px;
+    left: -66px;
+    z-index: 0;
+    transform: rotate(-174deg);
+}
+
+
+.rounded-square.a-ethos .small-green {
+    position: absolute;
+    top: -6px;
+    left: 2px;
+    z-index: -1;
+    transform: rotate(0deg);
+    transition: .3s;
+    opacity: 1;
+    visibility: visible;
+}
+.rounded-square.a-ethos .rounded-square-title{
+    color: #9BBA3B;
+}
+.rounded-square.a-ethos:hover .rounded-square-title h6{
+    opacity: 0;
+}
+.rounded-square.a-ethos .big-green-round{
+    top: -132px;
+    left: -8px;
+}
+.rounded-square.a-ethos .big-green-round img{
+    transform: rotate(-58deg);
+}
+
+.community{
+    position: absolute;
+    top: -56px;
+    right: -89px;
+    z-index: 0;
+    transform: rotate(13deg);
+}
+.competition{
+    position: absolute;
+    top: 190px;
+    right: -170px;
+    z-index: 0;
+    transform: rotate(62deg);
+}
+.team{
+    position: absolute;
+    bottom: -96px;
+    right: -42px;
+    z-index: 0;
+    transform: rotate(110deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

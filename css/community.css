@@ -1,0 +1,131 @@
+.community-list{
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.community-tab .tab-header{
+/*    background-color: #1D5605;*/
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 10px 0 30px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.community-tab .tab-body{
+    position: relative;
+    background-color: #DFE1DE;
+    background-size: cover!important;
+    background-position: center center!important;
+    margin-top: -20px;
+    border-radius: 10px;
+    padding: 50px 10px;
+}
+.active-tab .tab-body{
+    background: url(../images/active-bg.jpg) no-repeat;
+}
+.format-tab .tab-body{
+    background: url(../images/format-bg.jpg) no-repeat;
+}
+.nutrition-tab .tab-body{
+    background: url(../images/nutrition-bg.jpg) no-repeat;
+}
+.community-tab .tab-body .all{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 10px 10px 10px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.list-img-container {
+    position: relative;
+}
+/*.list-img-container img{
+    height: 203px;
+}*/
+.list-img-container .list-title{
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    
+}
+.list-img-container .list-socials{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.list-socials a{
+    width: 35px;
+    height: 35px;
+    background-color: #249716;
+    color: #fff;
+    border: 2px solid #fff;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    font-size: 15px;
+    margin-right: 2px;
+    transition: .4s;
+}
+.list-socials a:hover{
+    background-color: #fff;
+    color: #249716;
+    border: 2px solid #249716;
+}
+
+.list-content p{
+    font-size: 14px;
+}
+.list-content .btn-white{
+    padding: 8px 20px;
+    font-size: 14px;
+}
+
+.list-container .btn-white{
+    color: #333;
+}
+.list-container .btn-white:after{
+        background-color: #333;
+}
+
+
+/*=======================
+    MEDIA SCREENS
+========================*/
+@media (max-width: 767px){
+    .list-content .col-md-4.text-center{
+        text-align: left!important;
+        padding: 20px 12px;
+    }
+}
+@media (max-width: 480px){
+    .list-content .col-md-4.text-center{
+        text-align: left!important;
+        padding: 20px 12px;
+    }
+    .list-socials a{
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 25px;
+        font-size: 12px;
+        margin-right: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
